@@ -22,14 +22,14 @@ int	ft_iterative_factorial(int	nb)
 		 result *= nb;
 		nb--;
 	}
-	if (nb < 0)
+	if (nb  < 0)
 	{
 		return (0);
 	}
-	return (result);
+	return ( result );
 }
 
 int main (void)
 {
-	printf("%i", ft_iterative_factorial(4));
+	printf("%i",  ft_iterative_factorial(4));
 }
