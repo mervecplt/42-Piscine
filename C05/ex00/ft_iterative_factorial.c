@@ -22,7 +22,7 @@ int	ft_iterative_factorial(int	nb)
 		 result *= nb;
 		nb--;
 	}
-	if (nb  < 0)
+	if (nb  <  0)
 	{
 		return (0);
 	}
